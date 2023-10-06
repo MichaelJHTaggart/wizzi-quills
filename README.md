@@ -13,12 +13,11 @@
 ## How to contribute
 
  - Join the web dev club discord [here](https://discord.gg/mPPTAFn5KA)
- - DM Michael J.H. Taggart saying you want to contribute
+ - DM Michael J.H. Taggart (b1ueh4wk) saying you want to contribute to wizzi-quills providing your github username
  - Receive an invite to the repository, and be assigned an issue/task to complete
- - Click on the Edit in Codeflow ⚡️ button on your issue/task
- - Sign up if needed
- - Type your code
- - Submit a pull request with the changes you have made
+ - Create a branch
+ - Write (your code either using the Edit in Codeflow link OR locally)
+ - Submit a pull request from your branch to main
  - Ask for another issue/task when your pull request is approved
 
 ## Technologies to be implemented:
@@ -30,7 +29,7 @@ For Developers:
 GitHub.com (For code, project management, contributors information, and hosting)
 Stackblitz.com (For IDE, easy local development, easy contributions)
 
-Professionals who organized activity:
+## Professionals who organized activity:
 Name: Michael J.H. Taggart
 Profession: Web Development
 Discord name: b1ueh4wk
