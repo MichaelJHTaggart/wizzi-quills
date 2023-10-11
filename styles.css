@@ -8,7 +8,7 @@
 }
 
 .artboard a {
-    background-color: red; /* remove later and replace with background-image */
+    /* TODO: make code production ready. background-color: red; /* remove later and replace with background-image */
     border: 1px solid #F1C40F;
     width: 209px;
     height: 290px;
@@ -26,6 +26,5 @@
 @media screen and (min-width: 1024px) {
     .artboard {
         grid-template-columns: auto auto auto auto;
-        column-gap: 24px;
     }
 }
