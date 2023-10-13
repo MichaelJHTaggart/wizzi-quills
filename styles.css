@@ -1,3 +1,12 @@
+:root {
+    --theme-black-color: #2D2C2C;
+    --theme-white-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Rockwell', serif;
+}
+
 .artboard {
     display: grid;
     grid-template-columns: auto auto;
@@ -8,10 +17,34 @@
 }
 
 .artboard a {
-    /* TODO: make code production ready. background-color: red; /* remove later and replace with background-image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #F1C40F;
     width: 209px;
     height: 290px;
+    font-size: 28px;
+    color: var(--theme-black-color);
+    transition: 0.1s ease;
+}
+
+.artboard a:hover {
+    opacity: 80%;
+}
+
+.artboard #quills {
+    background-image: url(img/Rectangle-8.png);
+    color: var(--theme-white-color);
+}
+.artboard #ink {
+    background-image: url(img/Rectangle-11.png);
+    color: var(--theme-white-color);
+}
+.artboard #sets {
+    background-image: url(img/Rectangle-10.png);
+}
+.artboard #paper {
+    background-image: url(img/Rectangle-9.png);
 }
 
 /* If the screen is too narrow, the artboard blocks will smoosh into one column*/
