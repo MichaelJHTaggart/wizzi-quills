@@ -1,0 +1,30 @@
+.artboard {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 24px;
+    margin: 36px;
+}
+
+.artboard a {
+    /* TODO: make code production ready. background-color: red; /* remove later and replace with background-image */
+    border: 1px solid #F1C40F;
+    width: 209px;
+    height: 290px;
+}
+
+/* If the screen is too narrow, the artboard blocks will smoosh into one column*/
+@media screen and (max-width: 480px) {
+    .artboard {
+        grid-template-columns: auto;
+    }
+}
+
+/* If the screen is wide enough, the block will spread out */
+/* although, I did just choose min-width number somewhat arbitrarily */
+@media screen and (min-width: 1024px) {
+    .artboard {
+        grid-template-columns: auto auto auto auto;
+    }
+}
