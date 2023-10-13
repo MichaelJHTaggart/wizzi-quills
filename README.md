@@ -1,7 +1,5 @@
 # wizzi-quills
 
-[Edit in Codeflow ⚡️](https://stackblitz.com/~/github.com/MichaelJHTaggart/wizzi-quills)
-
 ## What is the purpose of this project?
 
  - Build CSS designs in small 30 minute exercises
