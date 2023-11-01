@@ -18,7 +18,7 @@ footer div {
 .footer-links {
   text-align: center;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: row;
 }
 
