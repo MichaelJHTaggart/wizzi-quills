@@ -1,63 +1,90 @@
 :root {
-    --theme-black-color: #2D2C2C;
-    --theme-white-color: #FFFFFF;
+  --theme-black-color: #2d2c2c;
+  --theme-white-color: #ffffff;
 }
 
 body {
-    font-family: 'Rockwell', serif;
+  font-family: 'Rockwell', serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  height: 103px;
+}
+
+.logo {
+  width: 189px;
+  img {
+    height: 66px;
+  }
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--theme-black-color);
+}
+
+.search {
+  height: 60px;
+  width: 189px;
+  background-color: black;
 }
 
 .artboard {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    column-gap: 24px;
-    row-gap: 24px;
-    margin: 36px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 24px;
+  row-gap: 24px;
+  margin: 36px;
 }
 
 .artboard a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #F1C40F;
-    width: 209px;
-    height: 290px;
-    font-size: 28px;
-    color: var(--theme-black-color);
-    transition: 0.1s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f1c40f;
+  width: 209px;
+  height: 290px;
+  font-size: 28px;
+  color: var(--theme-black-color);
+  transition: 0.1s ease;
 }
 
 .artboard a:hover {
-    opacity: 80%;
+  opacity: 80%;
 }
 
 .artboard #quills {
-    background-image: url(img/Rectangle-8.png);
-    color: var(--theme-white-color);
+  background-image: url(img/Rectangle-8.png);
+  color: var(--theme-white-color);
 }
 .artboard #ink {
-    background-image: url(img/Rectangle-11.png);
-    color: var(--theme-white-color);
+  background-image: url(img/Rectangle-11.png);
+  color: var(--theme-white-color);
 }
 .artboard #sets {
-    background-image: url(img/Rectangle-10.png);
+  background-image: url(img/Rectangle-10.png);
 }
 .artboard #paper {
-    background-image: url(img/Rectangle-9.png);
+  background-image: url(img/Rectangle-9.png);
 }
 
 /* If the screen is too narrow, the artboard blocks will smoosh into one column*/
 @media screen and (max-width: 480px) {
-    .artboard {
-        grid-template-columns: auto;
-    }
+  .artboard {
+    grid-template-columns: auto;
+  }
 }
 
 /* If the screen is wide enough, the block will spread out */
 /* although, I did just choose min-width number somewhat arbitrarily */
 @media screen and (min-width: 1024px) {
-    .artboard {
-        grid-template-columns: auto auto auto auto;
-    }
+  .artboard {
+    grid-template-columns: auto auto auto auto;
+  }
 }
