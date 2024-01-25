@@ -28,10 +28,41 @@ header {
   color: var(--theme-black-color);
 }
 
-.search {
+.search-section {
   height: 60px;
   width: 189px;
-  background-color: black;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.search-bar {
+  height: 24px;
+  width: 189px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.search-bar > img { 
+  height: 24px;
+  width: 24px;
+  /* margin: 0 8px; */
+}
+
+.search-icons {
+  height: 24px;
+  width: 189px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: white;
+}
+.search-icons > img {
+  height: 24px;
+  width: 24px;
+  margin-left: 8px;
 }
 
 .artboard {
